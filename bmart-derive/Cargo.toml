@@ -1,0 +1,16 @@
+[package]
+name = "bmart-derive"
+version = "0.1.4"
+edition = "2021"
+authors = ["Sergei S. <div@altertech.com>"]
+license = "Apache-2.0"
+description = "Bohemia Automation common tools library (derive macros)"
+readme = "README.md"
+keywords = ["process", "realtime", "workers", "tools"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0.9"
+syn = { version = "1.0.91", features = ["full", "extra-traits"] }
