@@ -11,7 +11,7 @@ keywords = ["process", "workers", "tools"]
 
 [dependencies]
 tokio = { version = "1.9.0", features = ["full"] }
-nix = "0.22.0"
+nix = { version = "0.30", features = ["signal"] }
 sysinfo = "0.29.2"
 log = "0.4.14"
 triggered = "0.1.2"
